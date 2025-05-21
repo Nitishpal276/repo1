@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="test.LoginTest">
+        <methods>
+          <include name="gettitle"/>
+          <include name="getUrl"/>
+          <include name="clickonclose"/>
+          <include name="resultAnalysis"/>
+          <include name="launcher"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="TextBoxTest(failed)">
+    <classes>
+      <class name="test.TextBoxTest">
+        <methods>
+          <include name="clickonpractice"/>
+          <include name="filldetails"/>
+          <include name="launcher"/>
+          <include name="clickonsubmit"/>
+          <include name="clickonelements"/>
+          <include name="resultAnalysis"/>
+          <include name="validate"/>
+          <include name="clickontextbox"/>
+          <include name="clickonclose"/>
+        </methods>
+      </class> <!-- test.TextBoxTest -->
+    </classes>
+  </test> <!-- TextBoxTest(failed) -->
+  <test thread-count="5" name="CheckBoxTest(failed)">
+    <classes>
+      <class name="test.CheckBoxTest">
+        <methods>
+          <include name="clickonlaptop"/>
+          <include name="clickonelements"/>
+          <include name="launcher"/>
+          <include name="clickonclose"/>
+          <include name="cliconpractice"/>
+          <include name="resultAnalysis"/>
+          <include name="clickondesktop"/>
+          <include name="clickoncheckbox"/>
+          <include name="clickonmobile"/>
+        </methods>
+      </class> <!-- test.CheckBoxTest -->
+    </classes>
+  </test> <!-- CheckBoxTest(failed) -->
+  <test thread-count="5" name="RadioButtonsTest(failed)">
+    <classes>
+      <class name="test.RadioButtonsTest">
+        <methods>
+          <include name="clickonnobuttons"/>
+          <include name="launcher"/>
+          <include name="clickonpractice"/>
+          <include name="clickonyesbuttons"/>
+          <include name="resultAnalysis"/>
+          <include name="clickonelements"/>
+          <include name="clickonclose"/>
+          <include name="clickonimpressivebuttons"/>
+          <include name="clickonradiobuttons"/>
+        </methods>
+      </class> <!-- test.RadioButtonsTest -->
+    </classes>
+  </test> <!-- RadioButtonsTest(failed) -->
+  <test thread-count="5" name="Links_Page(failed)">
+    <classes>
+      <class name="test.Links_Test">
+        <methods>
+          <include name="clickAtDemoPage"/>
+          <include name="resultAnalysis"/>
+          <include name="clickAtElements"/>
+          <include name="clickAtMoved"/>
+          <include name="backToPreviousWindow"/>
+          <include name="clickNextClose"/>
+          <include name="clickAtPractice"/>
+          <include name="clickAtUnauthorized"/>
+          <include name="launcher"/>
+          <include name="clickAtNoContant"/>
+          <include name="clickAtCreated"/>
+          <include name="clickAtLinks"/>
+          <include name="clickAtRequest"/>
+          <include name="clickAtClose"/>
+        </methods>
+      </class> <!-- test.Links_Test -->
+    </classes>
+  </test> <!-- Links_Page(failed) -->
+  <test thread-count="5" name="Links_Test(failed)">
+    <classes>
+      <class name="test.Links_Test">
+        <methods>
+          <include name="clickAtDemoPage"/>
+          <include name="resultAnalysis"/>
+          <include name="clickAtElements"/>
+          <include name="clickAtMoved"/>
+          <include name="backToPreviousWindow"/>
+          <include name="clickNextClose"/>
+          <include name="clickAtPractice"/>
+          <include name="clickAtUnauthorized"/>
+          <include name="launcher"/>
+          <include name="clickAtNoContant"/>
+          <include name="clickAtCreated"/>
+          <include name="clickAtLinks"/>
+          <include name="clickAtRequest"/>
+          <include name="clickAtClose"/>
+        </methods>
+      </class> <!-- test.Links_Test -->
+    </classes>
+  </test> <!-- Links_Test(failed) -->
+  <test thread-count="5" name="ButtonsTest(failed)">
+    <classes>
+      <class name="test.ButtonsTest">
+        <methods>
+          <include name="clickonRightclick"/>
+          <include name="launcher"/>
+          <include name="resultAnalysis"/>
+          <include name="clickonDoubleclick"/>
+          <include name="clickonClose"/>
+          <include name="clickonElement"/>
+          <include name="buttonsvalidate"/>
+          <include name="clickonbuttons"/>
+          <include name="clickonClickme"/>
+          <include name="clickonPractice"/>
+        </methods>
+      </class> <!-- test.ButtonsTest -->
+    </classes>
+  </test> <!-- ButtonsTest(failed) -->
+  <test thread-count="5" name="UploadTest(failed)">
+    <classes>
+      <class name="test.Upload_DownloadTest">
+        <methods>
+          <include name="clickAtChose"/>
+          <include name="clickAtPractice"/>
+          <include name="launcher"/>
+          <include name="resultAnalysis"/>
+          <include name="clickAtUploads"/>
+          <include name="uploadDoc"/>
+          <include name="clickAtClose"/>
+          <include name="clickAtElements"/>
+        </methods>
+      </class> <!-- test.Upload_DownloadTest -->
+    </classes>
+  </test> <!-- UploadTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

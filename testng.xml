@@ -1,0 +1,90 @@
+
+
+<suite name="Suite">
+  <test  name="LoginTest" enabled="true">
+    <classes>
+      <class name="test.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  <test  name="TextBoxTest" enabled="true">
+    <classes>
+       <class name="test.TextBoxTest"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  <test  name="CheckBoxTest" enabled="true">
+    <classes>
+      <class name="test.CheckBoxTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test  name="RadioButtonsTest" enabled="true">
+    <classes>
+      <class name="test.RadioButtonsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="WebTableTest" enabled="false">
+	  <classes>
+		  <class name="test.WebTableTest"/>
+	  </classes>
+  </test>
+   <test  name="Links_Page" enabled="true">
+    <classes>
+      <class name="test.Links_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Links_Test" enabled="true">
+	  <classes>
+		  <class name="test.Links_Test"/>
+	  </classes>
+  </test>
+  <test name="ButtonsTest" enabled="true">
+	  <classes>
+		  <class name="test.ButtonsTest"/>
+	  </classes>
+  </test>
+  <test name="UploadTest" enabled="true">
+	  <classes>
+		  <class name="test.Upload_DownloadTest"/>
+	  </classes>
+  </test>
+  <test name="Alerts_Test" enabled="false">
+	  <classes>
+		  <class name="test.Alerts_Test"/>
+	  </classes>
+  </test>
+  <test name="BrowserWindowTest" enabled="false">
+	  <classes>
+		  <class name="test.BrowserWindowTest"/>
+	  </classes>
+  </test>
+  
+  <test name="FrameTest" enabled="false">
+	  <classes>
+		  <class name="test.Frame_Test"/>
+	  </classes>
+  </test>  
+  
+  <test name="LinksTest" enabled="false">
+	  <classes>
+		  <class name="test.Links_Test"/>
+	  </classes>
+  </test>
+  
+  <test name="ModalDialogsTest" enabled="false">
+	  <classes>
+		  <class name="test.ModalDialogsTest"/>
+	  </classes>
+  </test>
+  
+  <test name="NestedFrameTest" enabled="false">
+	  <classes>
+		  <class name="test.NestedFrameTest"/>
+	  </classes>
+  </test>
+  
+  
+  
+  </suite> <!-- Suite -->
+  
